@@ -1,7 +1,10 @@
-dist
-cabal-dev
-*.o
+dist*
+*sandbox*
+*.*~
+static/tmp/
+config/client_session_key.aes
 *.hi
-*.chi
-*.chs.h
-.virthualenv
+*.o
+*.sqlite3
+.hsenv*
+yesod-devel/
